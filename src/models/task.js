@@ -1,18 +1,18 @@
 import Sequelize from 'sequelize';
 import { sequelize } from '../database/database';
 
-const Task = sequelize.define('TASKS', {
-    ID: {
+const Task = sequelize.define('tasks', {
+    id: {
         type: Sequelize.INTEGER,
         primaryKey: true
     },
-    NAME: {
+    name: {
         type: Sequelize.TEXT
     },
-    DONE: {
+    done: {
         type: Sequelize.BOOLEAN
     },
-    PROJECT_ID: {
+    project_id: {
         type: Sequelize.INTEGER,
     }
 }, {

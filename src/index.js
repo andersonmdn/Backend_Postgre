@@ -1,4 +1,5 @@
 import app from './app';
+import '@babel/polyfill';
 
 const port = 4000;
 
