@@ -16,4 +16,4 @@
 * `git merge`       // Juntar Alterações
 * `git push`        // Enviar as Alterações Para o Repositório Remoto
 * `git clone`       // Clonar um Projeto
-* `git pull`        // Puxar dp Repositório Remoto
+* `git pull`        // Puxar do Repositório Remoto
